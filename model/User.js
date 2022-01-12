@@ -24,13 +24,13 @@ const userSchema = mongoose.Schema({
     },
     image:String,
     token:{
-        type:string
+        type:String
     },
     tokenExp:{
         type:Number
     }
 })
 
-const User = mongoose.model('User',userSchema)
+const User = mongoose.model('User',userSchema);
 
-modeule.exports={User}
+module.exports={User}
